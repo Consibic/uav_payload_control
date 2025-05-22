@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/constantine/uav_payload_control/build/qt_ground_station_ros1': /usr/bin/cmake /home/constantine/uav_payload_control/src/qt_ground_station_ros1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/qt_ground_station_ros1
+[0.026s] [0mCMake Deprecation Warning at CMakeLists.txt:5 (cmake_minimum_required):
+[0.026s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.026s]   CMake.
+[0.026s] 
+[0.026s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.026s]   CMake that the project does not need compatibility with older versions.
+[0.026s] 
+[0.026s] [0m
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.199s] -- The CXX compiler identification is GNU 11.4.0
+[0.207s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.265s] -- Detecting CXX compiler ABI info
+[0.318s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.324s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.334s] -- Configuring incomplete, errors occurred!
+[0.334s] See also "/home/constantine/uav_payload_control/build/qt_ground_station_ros1/CMakeFiles/CMakeOutput.log".
+[0.335s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.335s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.335s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.335s]   CMake did not find one.
+[0.335s] 
+[0.335s]   Could not find a package configuration file provided by "catkin" with any
+[0.335s]   of the following names:
+[0.335s] 
+[0.335s]     catkinConfig.cmake
+[0.336s]     catkin-config.cmake
+[0.336s] 
+[0.336s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.336s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.336s]   provides a separate development package or SDK, be sure it has been
+[0.336s]   installed.
+[0.336s] 
+[0.336s] [0m
+[0.339s] Invoked command in '/home/constantine/uav_payload_control/build/qt_ground_station_ros1' returned '1': /usr/bin/cmake /home/constantine/uav_payload_control/src/qt_ground_station_ros1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/qt_ground_station_ros1

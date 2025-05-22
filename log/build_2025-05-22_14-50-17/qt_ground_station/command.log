@@ -1,0 +1,1 @@
+Invoking command in '/home/constantine/uav_payload_control/build/qt_ground_station': /usr/bin/cmake /home/constantine/uav_payload_control/src/qt_ground_station -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/qt_ground_station

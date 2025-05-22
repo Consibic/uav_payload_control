@@ -1,0 +1,4 @@
+source;share/optitrack_broadcast/local_setup.bash
+source;share/optitrack_broadcast/local_setup.dsv
+source;share/optitrack_broadcast/local_setup.sh
+source;share/optitrack_broadcast/local_setup.zsh

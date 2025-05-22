@@ -1,5 +1,0 @@
-string controllername
-int32 TargetdroneID
-bool isMulti
----
-bool oktostart

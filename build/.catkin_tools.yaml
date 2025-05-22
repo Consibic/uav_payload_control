@@ -1,6 +1,0 @@
-devel_space: /home/constantine/uav_payload_control/devel
-install: false
-install_space: /home/constantine/uav_payload_control/install
-profile: default
-source_space: /home/constantine/uav_payload_control/src
-workspace: /home/constantine/uav_payload_control

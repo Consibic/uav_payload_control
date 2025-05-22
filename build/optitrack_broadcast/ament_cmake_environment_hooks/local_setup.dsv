@@ -1,0 +1,2 @@
+source;share/optitrack_broadcast/environment/ament_prefix_path.sh
+source;share/optitrack_broadcast/environment/path.sh

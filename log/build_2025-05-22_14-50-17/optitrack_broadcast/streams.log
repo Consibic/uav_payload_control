@@ -1,0 +1,41 @@
+[0.012s] Invoking command in '/home/constantine/uav_payload_control/build/optitrack_broadcast': /usr/bin/cmake /home/constantine/uav_payload_control/src/optitrack_broadcast -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/optitrack_broadcast
+[0.033s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.033s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.033s]   CMake.
+[0.033s] 
+[0.033s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.033s]   CMake that the project does not need compatibility with older versions.
+[0.033s] 
+[0.033s] [0m
+[0.121s] -- The C compiler identification is GNU 11.4.0
+[0.206s] -- The CXX compiler identification is GNU 11.4.0
+[0.215s] -- Detecting C compiler ABI info
+[0.264s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.273s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.276s] -- Detecting CXX compiler ABI info
+[0.330s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.343s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.344s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.344s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.344s]   CMake did not find one.
+[0.344s] 
+[0.344s]   Could not find a package configuration file provided by "catkin" with any
+[0.344s]   of the following names:
+[0.344s] 
+[0.344s]     catkinConfig.cmake
+[0.344s]     catkin-config.cmake
+[0.344s] 
+[0.344s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.344s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.345s]   provides a separate development package or SDK, be sure it has been
+[0.345s]   installed.
+[0.345s] 
+[0.345s] [0m
+[0.346s] -- Configuring incomplete, errors occurred!
+[0.346s] See also "/home/constantine/uav_payload_control/build/optitrack_broadcast/CMakeFiles/CMakeOutput.log".
+[0.348s] Invoked command in '/home/constantine/uav_payload_control/build/optitrack_broadcast' returned '1': /usr/bin/cmake /home/constantine/uav_payload_control/src/optitrack_broadcast -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/optitrack_broadcast

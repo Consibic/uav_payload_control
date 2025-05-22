@@ -1,0 +1,2 @@
+Invoking command in '/home/constantine/uav_payload_control/build/px4_command': /usr/bin/cmake /home/constantine/uav_payload_control/src/px4_command -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/px4_command
+Invoked command in '/home/constantine/uav_payload_control/build/px4_command' returned '1': /usr/bin/cmake /home/constantine/uav_payload_control/src/px4_command -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/px4_command

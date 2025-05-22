@@ -1,0 +1,29 @@
+[0.007s] Invoking command in '/home/constantine/uav_payload_control/build/qt_ground_station': /usr/bin/cmake /home/constantine/uav_payload_control/src/qt_ground_station -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/qt_ground_station
+[0.011s] [0mCMake Deprecation Warning at CMakeLists.txt:5 (cmake_minimum_required):
+[0.011s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.011s]   CMake.
+[0.011s] 
+[0.011s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.011s]   CMake that the project does not need compatibility with older versions.
+[0.011s] 
+[0.011s] [0m
+[0.021s] -- Configuring incomplete, errors occurred!
+[0.021s] See also "/home/constantine/uav_payload_control/build/qt_ground_station/CMakeFiles/CMakeOutput.log".
+[0.021s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.021s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.021s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.022s]   CMake did not find one.
+[0.022s] 
+[0.022s]   Could not find a package configuration file provided by "catkin" with any
+[0.022s]   of the following names:
+[0.022s] 
+[0.022s]     catkinConfig.cmake
+[0.022s]     catkin-config.cmake
+[0.022s] 
+[0.022s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.022s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.022s]   provides a separate development package or SDK, be sure it has been
+[0.022s]   installed.
+[0.022s] 
+[0.022s] [0m
+[0.023s] Invoked command in '/home/constantine/uav_payload_control/build/qt_ground_station' returned '1': /usr/bin/cmake /home/constantine/uav_payload_control/src/qt_ground_station -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/qt_ground_station

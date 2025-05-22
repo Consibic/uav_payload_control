@@ -1,0 +1,15 @@
+/home/constantine/uav_payload_control/install/px4_command/share/ament_index/resource_index/package_run_dependencies/px4_command
+/home/constantine/uav_payload_control/install/px4_command/share/ament_index/resource_index/parent_prefix_path/px4_command
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/environment/ament_prefix_path.sh
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/environment/ament_prefix_path.dsv
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/environment/path.sh
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/environment/path.dsv
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/local_setup.bash
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/local_setup.sh
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/local_setup.zsh
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/local_setup.dsv
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/package.dsv
+/home/constantine/uav_payload_control/install/px4_command/share/ament_index/resource_index/packages/px4_command
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/cmake/px4_commandConfig.cmake
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/cmake/px4_commandConfig-version.cmake
+/home/constantine/uav_payload_control/install/px4_command/share/px4_command/package.xml

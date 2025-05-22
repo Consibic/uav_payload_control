@@ -1,0 +1,41 @@
+[0.010s] Invoking command in '/home/constantine/uav_payload_control/build/px4_command': /usr/bin/cmake /home/constantine/uav_payload_control/src/px4_command -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/px4_command
+[0.030s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.030s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.030s]   CMake.
+[0.030s] 
+[0.030s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.030s]   CMake that the project does not need compatibility with older versions.
+[0.030s] 
+[0.030s] [0m
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.211s] -- Detecting C compiler ABI info
+[0.261s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.270s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.327s] -- Detecting CXX compile features
+[0.328s] -- Detecting CXX compile features - done
+[0.337s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.337s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.337s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.337s]   CMake did not find one.
+[0.337s] 
+[0.337s]   Could not find a package configuration file provided by "catkin" with any
+[0.337s]   of the following names:
+[0.337s] 
+[0.337s]     catkinConfig.cmake
+[0.337s]     catkin-config.cmake
+[0.337s] 
+[0.337s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.338s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.338s]   provides a separate development package or SDK, be sure it has been
+[0.338s]   installed.
+[0.338s] 
+[0.338s] [0m
+[0.338s] -- Configuring incomplete, errors occurred!
+[0.338s] See also "/home/constantine/uav_payload_control/build/px4_command/CMakeFiles/CMakeOutput.log".
+[0.342s] Invoked command in '/home/constantine/uav_payload_control/build/px4_command' returned '1': /usr/bin/cmake /home/constantine/uav_payload_control/src/px4_command -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/constantine/uav_payload_control/install/px4_command

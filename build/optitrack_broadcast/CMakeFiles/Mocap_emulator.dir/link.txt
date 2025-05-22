@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -std=c++11   -shared -Wl,-soname,libMocap_emulator.so -o /home/constantine/uav_payload_control/devel/.private/optitrack_broadcast/lib/libMocap_emulator.so CMakeFiles/Mocap_emulator.dir/src/lib/Mocap_emulator.cpp.o 

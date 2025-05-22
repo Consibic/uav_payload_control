@@ -1,0 +1,24 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/constantine/uav_payload_control/build/qt_ground_station
+-- Install configuration: ""
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/ament_index/resource_index/package_run_dependencies/qt_ground_station
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/ament_index/resource_index/parent_prefix_path/qt_ground_station
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/environment/ament_prefix_path.sh
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/environment/ament_prefix_path.dsv
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/environment/path.sh
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/environment/path.dsv
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/local_setup.bash
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/local_setup.sh
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/local_setup.zsh
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/local_setup.dsv
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/package.dsv
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/ament_index/resource_index/packages/qt_ground_station
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/cmake/qt_ground_stationConfig.cmake
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/cmake/qt_ground_stationConfig-version.cmake
+-- Installing: /home/constantine/uav_payload_control/install/qt_ground_station/share/qt_ground_station/package.xml

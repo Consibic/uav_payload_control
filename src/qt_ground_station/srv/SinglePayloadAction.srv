@@ -1,5 +1,0 @@
-bool perform_action
-int32 action_type
----
-bool status_ok
-int32 trajectory_type

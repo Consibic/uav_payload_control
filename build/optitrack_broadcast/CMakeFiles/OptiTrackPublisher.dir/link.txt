@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -std=c++11   -shared -Wl,-soname,libOptiTrackPublisher.so -o /home/constantine/uav_payload_control/devel/.private/optitrack_broadcast/lib/libOptiTrackPublisher.so CMakeFiles/OptiTrackPublisher.dir/src/lib/OptiTrackPublisher.cpp.o 

@@ -1,0 +1,24 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/constantine/uav_payload_control/build/optitrack_broadcast
+-- Install configuration: ""
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/ament_index/resource_index/package_run_dependencies/optitrack_broadcast
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/ament_index/resource_index/parent_prefix_path/optitrack_broadcast
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/environment/ament_prefix_path.sh
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/environment/ament_prefix_path.dsv
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/environment/path.sh
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/environment/path.dsv
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/local_setup.bash
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/local_setup.sh
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/local_setup.zsh
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/local_setup.dsv
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/package.dsv
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/ament_index/resource_index/packages/optitrack_broadcast
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/cmake/optitrack_broadcastConfig.cmake
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/cmake/optitrack_broadcastConfig-version.cmake
+-- Installing: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/package.xml
