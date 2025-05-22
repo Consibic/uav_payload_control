@@ -1,0 +1,23 @@
+(cl:defpackage qt_ground_station-msg
+  (:use )
+  (:export
+   "<ATTITUDEREFERENCE>"
+   "ATTITUDEREFERENCE"
+   "<CONTROLCOMMAND>"
+   "CONTROLCOMMAND"
+   "<CONTROLOUTPUT>"
+   "CONTROLOUTPUT"
+   "<DRONESTATE>"
+   "DRONESTATE"
+   "<HOMEPOSITION>"
+   "HOMEPOSITION"
+   "<MOCAP>"
+   "MOCAP"
+   "<TOPIC_FOR_LOG>"
+   "TOPIC_FOR_LOG"
+   "<TRAJECTORY>"
+   "TRAJECTORY"
+   "<TRAJECTORYPOINT>"
+   "TRAJECTORYPOINT"
+  ))
+

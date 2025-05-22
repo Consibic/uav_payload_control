@@ -1,0 +1,403 @@
+## parameter for px4_multidrone_pos_controller
+## 起飞高度
+Takeoff_height : 0.3
+Disarm_height : 0.3
+
+## parameter for px4_pos_estimator.cpp
+pos_estimator: 
+## 使用激光SLAM数据orVicon数据 0 for vicon， 1 for 激光SLAM
+  flag_use_laser_or_vicon : 0
+## 0 for use the data from fcu, 1 for use the mocap raw data(only position), 2 for use the mocap raw data(position and velocity)
+  Use_mocap_raw : 0
+  linear_window : 3
+  angular_window : 3
+  noise_a : 0.0
+  noise_b : 0.0
+  noise_T : 1.0
+
+## 飞机参数
+Quad:
+  mass: 1.541
+## payload mass
+Payload:
+  mass: 0.5
+## cable length
+Cable:
+  length: 0.9
+
+## 限制参数
+Limit:
+  pxy_error_max: 10.0
+  vxy_error_max: 10.0
+  pz_error_max: 10.0
+  vz_error_max: 10.0
+  pxy_int_max : 10.0
+  pz_int_max : 10.0
+  tilt_max: 35.0
+  int_start_error: 10.0
+
+  XY_VEL_MAX : 10.0
+  Z_VEL_MAX : 10.0
+
+# 位置环参数 - cascade pid
+Pos_cascade_pid:
+   Kp_xy : 0.95
+   Kp_z : 1.0
+   Kp_vxvy : 0.09
+   Kp_vz : 0.2
+   Ki_vxvy : 0.02
+   Ki_vz : 0.02
+   Kd_vxvy : 0.01
+   Kd_vz : 0.0
+   Hover_throttle : 0.45
+   MPC_VELD_LP: 5.0
+
+# 位置环参数 - normal pid
+Pos_pid:
+  Kp_xy : 2.5
+  Kp_z : 2.5
+  Ki_xy : 0.5
+  Ki_z : 0.5
+  Kd_xy : 3.0
+  Kd_z : 3.0
+
+
+# 位置环参数 for ude
+Pos_ude:
+  Kp_xy : 0.5
+  Kp_z : 0.5
+  Kd_xy : 2.0
+  Kd_z : 2.0
+  T_ude_xy : 2.0
+  T_ude_z : 2.0
+
+# 位置环参数 for passivity
+Pos_passivity:
+  Kp_xy : 0.5
+  Kp_z : 0.5
+  Kd_xy : 2.0
+  Kd_z : 2.0
+  T_ude_xy : 1.0
+  T_ude_z : 1.0
+  T_ps: 0.2
+
+# 位置环参数 for ne
+Pos_ne:
+  Kp_xy : 0.5
+  Kp_z : 0.5
+  Kd_xy : 2.0
+  Kd_z : 2.0
+  T_ude_xy : 1.0
+  T_ude_z : 1.0
+  T_ne : 0.1
+
+# 圆轨迹参数 for Circle_Trajectory
+Circle_Trajectory:
+  Center_x: 0.0
+  Center_y: 0.0
+  Center_z: 1.0
+  radius: 1.0
+  linear_vel: 1.0
+  time_total: 50.0
+  direction: 1.0
+
+Rectangular_Trajectory:
+  a_x: 12.0 # length along x axis
+  a_y: 12.0 # length along y axis
+  h: 3.0 # hight
+  vel_x: 0.5 # velocity along x axis
+  vel_y: 0.5 # velocity along y axis
+  center_x: 0.0
+  center_y: 0.0
+  center_z: 0.0
+
+PayloadGeofence:
+  x_min: -0.5
+  x_max:  0.6
+  y_min: -0.45
+  y_max:  0.45
+  z_min: -0.05
+  z_max:  0.6
+
+# cooperative method
+CooperativePayload: 0
+IntegrationStartHeight: 0.05
+
+# parameter for single UAV payload using method in TIE paper
+Pos_tie:
+  issingleUAVused: true   # is single UAV payload used in control
+  isVisionused: false
+  isIntegrationOn: true
+  isPubAuxiliaryState: true
+  payload_mass: 0.5
+  quadrotor_mass : 1.63
+  cablelength : 1
+  motor_slope: 0.082
+  motor_intercept: 0.26
+  Kp_xy : 0.5
+  Kp_z :  0.7
+  Kv_xy : 2.0
+  Kv_z :  2.0
+  T_tie_xy : 0.8
+  T_tie_z : 0.6
+  Kpv_xy: 0.0
+  Kpv_z: 0.0
+  KL : 0.0
+
+# parameter for payload cooperative control 
+uav0_Pos_GNC:
+  mass : 1.541
+  cablelength : 0.98
+  TetherOffset_x: 1.085
+  TetherOffset_y: 0
+  TetherOffset_z: 0
+  PayloadSharingPortion : 0.33333
+  motor_slope: 0.09603
+  motor_intercept: 0.13213
+
+uav1_Pos_GNC:
+  mass : 1.541
+  cablelength : 0.98
+  TetherOffset_x: -0.5425
+  TetherOffset_y: -0.9396
+  TetherOffset_z: 0
+  PayloadSharingPortion: 0.33333
+  motor_slope: 0.09603
+  motor_intercept: 0.13213
+
+uav2_Pos_GNC:
+  mass : 1.541
+  cablelength : 0.98
+  TetherOffset_x: -0.5425
+  TetherOffset_y: 0.9396
+  TetherOffset_z: 0
+  PayloadSharingPortion: 0.33333
+  motor_slope: 0.09603
+  motor_intercept: 0.13213
+
+Pos_GNC:
+  ControllerInfo: -1
+  Type: 0              # 0 for TCST method 
+  MaxInclination: 50.0 # maximum safty angle
+  CableLengthTolerance: 1.2
+  # debugging options
+  UseAddonForce: true
+  UseCrossFeedingTerms: true
+  PubAuxiliaryState : true
+  # controller parametrers: 
+  num_drone : 3
+  kv_xy : 0.25
+  Kv_z  : 0.7
+  kR_xy : 0.3
+  kR_z  : 0.2
+  kL    : 0.15
+  Kphi_xy : 3
+  Kphi_z  : 4.5
+  fp_max_x : 5
+  fp_max_y : 5
+  fp_max_z : 5
+  lambda_j : 0.30
+  lambda_Txy : 0.08
+  lambda_Tz  : 0.3
+  lambda_Rxy : 0.09
+  lambda_Rz  : 0.09
+  kF_xy : 0.4
+  kF_z :  0.5
+  kr1_x : 0.15
+  kr1_y : 0.15
+  kr1_z : 0.15
+  kr2_x : 0.15
+  kr2_y : 0.15
+  kr2_z : 0.15
+
+  kp_x : 0.1
+  kp_y : 0.1
+  kp_z : 0.1
+
+  komega_x : 0.1
+  komega_y : 0.1
+  komega_z : 0.1
+
+  lambda1_x : 0.3
+  lambda1_y : 0.3
+  lambda1_z : 0.3
+  lambda2_x : 0.3
+  lambda2_y : 0.3
+  lambda2_z : 0.3
+  pos_int_max_x: 10
+  pos_int_max_y: 10
+  pos_int_max_z: 10
+  ang_int_max_x : 1
+  ang_int_max_y : 1
+  ang_int_max_z : 1
+  pos_int_start_error: 0.3
+  angle_int_start_error: 0.5
+  ## temporary disabled: (integral gain for payload stabilization)
+  kvi_xy : 0.00
+  kvi_z  : 0.00
+  kRi_xy : 0.0
+  kRi_z  : 0.0
+
+Pos_JGCD:
+  MaxInclination: 50.0 # maximum safty angle
+  CableLengthTolerance: 1.2
+  PubAuxiliaryState : true
+  # controller parametrers:
+  num_drone : 3
+  kv_xy : 0.2
+  Kv_z  : 0.7
+  kR_xy : 0.3
+  kR_z  : 0.2
+  kL    : 0.12
+  Kphi_xy : 3.0
+  Kphi_z  : 4.5
+  fp_max_x : 10.0
+  fp_max_y : 10.0
+  fp_max_z : 10.0
+  lambda_j : 0.3
+
+MPCgain: 
+   Kmpc_0_0: 0
+   Kmpc_0_1: 0
+   Kmpc_0_2: 0
+   Kmpc_0_3: 0
+   Kmpc_0_4: 0
+   Kmpc_0_5: 0
+   Kmpc_0_6: 0
+   Kmpc_0_7: 0
+   Kmpc_0_8: 0
+   Kmpc_0_9: 0
+   Kmpc_0_10: 0
+   Kmpc_0_11: 0
+   Kmpc_0_12: 0
+   Kmpc_0_13: 0
+   Kmpc_0_14: 0
+   Kmpc_0_15: 0
+   Kmpc_0_16: 0
+   Kmpc_0_17: 0
+   Kmpc_0_18: 0
+   Kmpc_0_19: 0
+   Kmpc_0_20: 0
+   Kmpc_0_21: 0
+   Kmpc_0_22: 0
+   Kmpc_0_23: 0
+   Kmpc_1_0: 0
+   Kmpc_1_1: 0
+   Kmpc_1_2: 0
+   Kmpc_1_3: 0
+   Kmpc_1_4: 0
+   Kmpc_1_5: 0
+   Kmpc_1_6: 0
+   Kmpc_1_7: 0
+   Kmpc_1_8: 0
+   Kmpc_1_9: 0
+   Kmpc_1_10: 0
+   Kmpc_1_11: 0
+   Kmpc_1_12: 0
+   Kmpc_1_13: 0
+   Kmpc_1_14: 0
+   Kmpc_1_15: 0
+   Kmpc_1_16: 0
+   Kmpc_1_17: 0
+   Kmpc_1_18: 0
+   Kmpc_1_19: 0
+   Kmpc_1_20: 0
+   Kmpc_1_21: 0
+   Kmpc_1_22: 0
+   Kmpc_1_23: 0
+   Kmpc_2_0: 0
+   Kmpc_2_1: 0
+   Kmpc_2_2: 0
+   Kmpc_2_3: 0
+   Kmpc_2_4: 0
+   Kmpc_2_5: 0
+   Kmpc_2_6: 0
+   Kmpc_2_7: 0
+   Kmpc_2_8: 0
+   Kmpc_2_9: 0
+   Kmpc_2_10: 0
+   Kmpc_2_11: 0
+   Kmpc_2_12: 0
+   Kmpc_2_13: 0
+   Kmpc_2_14: 0
+   Kmpc_2_15: 0
+   Kmpc_2_16: 0
+   Kmpc_2_17: 0
+   Kmpc_2_18: 0
+   Kmpc_2_19: 0
+   Kmpc_2_20: 0
+   Kmpc_2_21: 0
+   Kmpc_2_22: 0
+   Kmpc_2_23: 0
+   Kmpc_3_0: 0
+   Kmpc_3_1: 0
+   Kmpc_3_2: 0
+   Kmpc_3_3: 0
+   Kmpc_3_4: 0
+   Kmpc_3_5: 0
+   Kmpc_3_6: 0
+   Kmpc_3_7: 0
+   Kmpc_3_8: 0
+   Kmpc_3_9: 0
+   Kmpc_3_10: 0
+   Kmpc_3_11: 0
+   Kmpc_3_12: 0
+   Kmpc_3_13: 0
+   Kmpc_3_14: 0
+   Kmpc_3_15: 0
+   Kmpc_3_16: 0
+   Kmpc_3_17: 0
+   Kmpc_3_18: 0
+   Kmpc_3_19: 0
+   Kmpc_3_20: 0
+   Kmpc_3_21: 0
+   Kmpc_3_22: 0
+   Kmpc_3_23: 0
+   Kmpc_4_0: 0
+   Kmpc_4_1: 0
+   Kmpc_4_2: 0
+   Kmpc_4_3: 0
+   Kmpc_4_4: 0
+   Kmpc_4_5: 0
+   Kmpc_4_6: 0
+   Kmpc_4_7: 0
+   Kmpc_4_8: 0
+   Kmpc_4_9: 0
+   Kmpc_4_10: 0
+   Kmpc_4_11: 0
+   Kmpc_4_12: 0
+   Kmpc_4_13: 0
+   Kmpc_4_14: 0
+   Kmpc_4_15: 0
+   Kmpc_4_16: 0
+   Kmpc_4_17: 0
+   Kmpc_4_18: 0
+   Kmpc_4_19: 0
+   Kmpc_4_20: 0
+   Kmpc_4_21: 0
+   Kmpc_4_22: 0
+   Kmpc_4_23: 0
+   Kmpc_5_0: 0
+   Kmpc_5_1: 0
+   Kmpc_5_2: 0
+   Kmpc_5_3: 0
+   Kmpc_5_4: 0
+   Kmpc_5_5: 0
+   Kmpc_5_6: 0
+   Kmpc_5_7: 0
+   Kmpc_5_8: 0
+   Kmpc_5_9: 0
+   Kmpc_5_10: 0
+   Kmpc_5_11: 0
+   Kmpc_5_12: 0
+   Kmpc_5_13: 0
+   Kmpc_5_14: 0
+   Kmpc_5_15: 0
+   Kmpc_5_16: 0
+   Kmpc_5_17: 0
+   Kmpc_5_18: 0
+   Kmpc_5_19: 0
+   Kmpc_5_20: 0
+   Kmpc_5_21: 0
+   Kmpc_5_22: 0
+   Kmpc_5_23: 0

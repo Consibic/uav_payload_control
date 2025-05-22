@@ -1,0 +1,1 @@
+/home/constantine/uav_payload_control/devel/.private/qt_ground_station/share/roseus/ros/qt_ground_station/srv/ControlParameter.l

@@ -1,0 +1,8 @@
+prefix=/home/constantine/uav_payload_control/install
+
+Name: px4_command
+Description: Description of px4_command
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

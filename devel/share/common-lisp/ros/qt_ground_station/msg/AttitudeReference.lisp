@@ -1,0 +1,1 @@
+/home/constantine/uav_payload_control/devel/.private/qt_ground_station/share/common-lisp/ros/qt_ground_station/msg/AttitudeReference.lisp

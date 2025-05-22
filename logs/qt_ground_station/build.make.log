@@ -1,0 +1,177 @@
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_GeneralInfo[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_SinglePayloadAction[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_HomePosition[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_MultiPayloadAction[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_Trajectory[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_ControlOutput[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_ControlParameter[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_AttitudeReference[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_TrajectoryPoint[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_ControlCommand[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_Mocap[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_Topic_for_log[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_SetHome[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target geographic_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _qt_ground_station_generate_messages_check_deps_DroneState[0m
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geographic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_MultiPayloadAction
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_TrajectoryPoint
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_Trajectory
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_AttitudeReference
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_HomePosition
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_Topic_for_log
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_GeneralInfo
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_SetHome
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_ControlCommand
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_ControlOutput
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_SinglePayloadAction
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_Mocap
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_ControlParameter
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geographic_msgs_generate_messages_nodejs
+[  0%] Built target _qt_ground_station_generate_messages_check_deps_DroneState
+[  0%] Built target geographic_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geographic_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target qt_ground_station_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target qt_ground_station_generate_messages_eus[0m
+[35m[1mScanning dependencies of target qt_ground_station_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target qt_ground_station_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target qt_ground_station_generate_messages_py[0m
+[  1%] [34m[1mGenerating C++ code from qt_ground_station/AttitudeReference.msg[0m
+[  2%] [34m[1mGenerating C++ code from qt_ground_station/ControlCommand.msg[0m
+[  3%] [34m[1mGenerating C++ code from qt_ground_station/Trajectory.msg[0m
+[  4%] [34m[1mGenerating EusLisp code from qt_ground_station/ControlCommand.msg[0m
+[  6%] [34m[1mGenerating C++ code from qt_ground_station/DroneState.msg[0m
+[  7%] [34m[1mGenerating EusLisp code from qt_ground_station/ControlOutput.msg[0m
+[  8%] [34m[1mGenerating EusLisp code from qt_ground_station/DroneState.msg[0m
+[  9%] [34m[1mGenerating C++ code from qt_ground_station/TrajectoryPoint.msg[0m
+[ 10%] [34m[1mGenerating C++ code from qt_ground_station/Topic_for_log.msg[0m
+[ 12%] [34m[1mGenerating C++ code from qt_ground_station/ControlOutput.msg[0m
+[ 13%] [34m[1mGenerating C++ code from qt_ground_station/Mocap.msg[0m
+[ 14%] [34m[1mGenerating EusLisp code from qt_ground_station/Mocap.msg[0m
+[ 15%] [34m[1mGenerating Javascript code from qt_ground_station/AttitudeReference.msg[0m
+[ 17%] [34m[1mGenerating Lisp code from qt_ground_station/AttitudeReference.msg[0m
+[ 18%] [34m[1mGenerating EusLisp code from qt_ground_station/AttitudeReference.msg[0m
+[ 19%] [34m[1mGenerating Python from MSG qt_ground_station/AttitudeReference[0m
+[ 20%] [34m[1mGenerating Lisp code from qt_ground_station/ControlCommand.msg[0m
+[ 23%] [34m[1mGenerating Javascript code from qt_ground_station/ControlOutput.msg[0m
+[ 23%] [34m[1mGenerating Javascript code from qt_ground_station/ControlCommand.msg[0m
+[ 24%] [34m[1mGenerating EusLisp code from qt_ground_station/Topic_for_log.msg[0m
+[ 25%] [34m[1mGenerating Lisp code from qt_ground_station/ControlOutput.msg[0m
+[ 26%] [34m[1mGenerating Lisp code from qt_ground_station/DroneState.msg[0m
+[ 28%] [34m[1mGenerating EusLisp code from qt_ground_station/Trajectory.msg[0m
+[ 29%] [34m[1mGenerating Lisp code from qt_ground_station/Mocap.msg[0m
+[ 30%] [34m[1mGenerating C++ code from qt_ground_station/HomePosition.msg[0m
+[ 31%] [34m[1mGenerating C++ code from qt_ground_station/ControlParameter.srv[0m
+[ 34%] [34m[1mGenerating C++ code from qt_ground_station/MultiPayloadAction.srv[0m
+[ 34%] [34m[1mGenerating C++ code from qt_ground_station/SinglePayloadAction.srv[0m
+[ 35%] [34m[1mGenerating Javascript code from qt_ground_station/DroneState.msg[0m
+[ 36%] [34m[1mGenerating Lisp code from qt_ground_station/Topic_for_log.msg[0m
+[ 39%] [34m[1mGenerating C++ code from qt_ground_station/GeneralInfo.srv[0m
+[ 39%] [34m[1mGenerating Lisp code from qt_ground_station/Trajectory.msg[0m
+[ 40%] [34m[1mGenerating Lisp code from qt_ground_station/TrajectoryPoint.msg[0m
+[ 41%] [34m[1mGenerating C++ code from qt_ground_station/SetHome.srv[0m
+[ 42%] [34m[1mGenerating Javascript code from qt_ground_station/Mocap.msg[0m
+[ 43%] [34m[1mGenerating Lisp code from qt_ground_station/HomePosition.msg[0m
+[ 45%] [34m[1mGenerating Lisp code from qt_ground_station/ControlParameter.srv[0m
+[ 46%] [34m[1mGenerating Lisp code from qt_ground_station/SinglePayloadAction.srv[0m
+[ 47%] [34m[1mGenerating EusLisp code from qt_ground_station/TrajectoryPoint.msg[0m
+[ 48%] [34m[1mGenerating Python from MSG qt_ground_station/ControlCommand[0m
+[ 50%] [34m[1mGenerating Lisp code from qt_ground_station/MultiPayloadAction.srv[0m
+[ 51%] [34m[1mGenerating Lisp code from qt_ground_station/GeneralInfo.srv[0m
+[ 52%] [34m[1mGenerating EusLisp code from qt_ground_station/ControlParameter.srv[0m
+[ 53%] [34m[1mGenerating EusLisp code from qt_ground_station/HomePosition.msg[0m
+[ 54%] [34m[1mGenerating Python from MSG qt_ground_station/ControlOutput[0m
+[ 56%] [34m[1mGenerating Javascript code from qt_ground_station/Topic_for_log.msg[0m
+[ 57%] [34m[1mGenerating EusLisp code from qt_ground_station/SinglePayloadAction.srv[0m
+[ 58%] [34m[1mGenerating Lisp code from qt_ground_station/SetHome.srv[0m
+[ 59%] [34m[1mGenerating EusLisp code from qt_ground_station/MultiPayloadAction.srv[0m
+[ 60%] [34m[1mGenerating EusLisp code from qt_ground_station/GeneralInfo.srv[0m
+[ 62%] [34m[1mGenerating Javascript code from qt_ground_station/Trajectory.msg[0m
+[ 63%] [34m[1mGenerating Javascript code from qt_ground_station/TrajectoryPoint.msg[0m
+[ 64%] [34m[1mGenerating Javascript code from qt_ground_station/HomePosition.msg[0m
+[ 64%] Built target qt_ground_station_generate_messages_lisp
+[ 67%] [34m[1mGenerating EusLisp code from qt_ground_station/SetHome.srv[0m
+[ 67%] [34m[1mGenerating EusLisp manifest code for qt_ground_station[0m
+[ 68%] [34m[1mGenerating Javascript code from qt_ground_station/ControlParameter.srv[0m
+[ 69%] [34m[1mGenerating Javascript code from qt_ground_station/SinglePayloadAction.srv[0m
+[ 70%] [34m[1mGenerating Javascript code from qt_ground_station/MultiPayloadAction.srv[0m
+[ 73%] [34m[1mGenerating Javascript code from qt_ground_station/GeneralInfo.srv[0m
+[ 73%] [34m[1mGenerating Python from MSG qt_ground_station/DroneState[0m
+[ 74%] [34m[1mGenerating Javascript code from qt_ground_station/SetHome.srv[0m
+[ 75%] [34m[1mGenerating Python from MSG qt_ground_station/Mocap[0m
+[ 76%] [34m[1mGenerating Python from MSG qt_ground_station/Topic_for_log[0m
+[ 78%] [34m[1mGenerating Python from MSG qt_ground_station/Trajectory[0m
+[ 79%] [34m[1mGenerating Python from MSG qt_ground_station/TrajectoryPoint[0m
+[ 80%] [34m[1mGenerating Python from MSG qt_ground_station/HomePosition[0m
+[ 81%] [34m[1mGenerating Python code from SRV qt_ground_station/ControlParameter[0m
+[ 81%] Built target qt_ground_station_generate_messages_cpp
+[ 82%] [34m[1mGenerating Python code from SRV qt_ground_station/SinglePayloadAction[0m
+[ 84%] [34m[1mGenerating include/qt_ground_station/moc_qnode.cpp[0m
+[ 85%] [34m[1mGenerating Python code from SRV qt_ground_station/MultiPayloadAction[0m
+[ 86%] [34m[1mGenerating ui_main_window.h[0m
+[ 87%] [34m[1mGenerating Python code from SRV qt_ground_station/GeneralInfo[0m
+[ 89%] [34m[1mGenerating Python code from SRV qt_ground_station/SetHome[0m
+/home/constantine/uav_payload_control/src/qt_ground_station/ui/main_window.ui: Warning: The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget1'.
+/home/constantine/uav_payload_control/src/qt_ground_station/ui/main_window.ui: Warning: The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget2'.
+/home/constantine/uav_payload_control/src/qt_ground_station/ui/main_window.ui: Warning: The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget3'.
+/home/constantine/uav_payload_control/src/qt_ground_station/ui/main_window.ui: Warning: The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget4'.
+/home/constantine/uav_payload_control/src/qt_ground_station/ui/main_window.ui: Warning: The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget5'.
+/home/constantine/uav_payload_control/src/qt_ground_station/ui/main_window.ui: Warning: The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget6'.
+/home/constantine/uav_payload_control/src/qt_ground_station/ui/main_window.ui: Warning: The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget7'.
+/home/constantine/uav_payload_control/src/qt_ground_station/ui/main_window.ui: Warning: The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget8'.
+[ 90%] [34m[1mGenerating include/qt_ground_station/moc_main_window.cpp[0m
+[ 90%] Built target qt_ground_station_generate_messages_nodejs
+[ 92%] [34m[1mGenerating Python srv __init__.py for qt_ground_station[0m
+[ 92%] [34m[1mGenerating Python msg __init__.py for qt_ground_station[0m
+[ 92%] Built target qt_ground_station_generate_messages_eus
+[ 92%] Built target qt_ground_station_generate_messages_py
+[35m[1mScanning dependencies of target qt_ground_station_generate_messages[0m
+[ 92%] Built target qt_ground_station_generate_messages
+[35m[1mScanning dependencies of target qt_ground_station[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/qt_ground_station.dir/src/main.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/qt_ground_station.dir/src/main_window.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/qt_ground_station.dir/src/qnode.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/qt_ground_station.dir/include/qt_ground_station/moc_main_window.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/qt_ground_station.dir/include/qt_ground_station/moc_qnode.cpp.o[0m
+In file included from [01m[K/home/constantine/uav_payload_control/src/qt_ground_station/src/qnode.cpp:21[m[K:
+[01m[K/home/constantine/uav_payload_control/src/qt_ground_station/src/../include/qt_ground_station/math_utils.h:[m[K In function ‘[01m[Kfloat sign_function(float)[m[K’:
+[01m[K/home/constantine/uav_payload_control/src/qt_ground_station/src/../include/qt_ground_station/math_utils.h:125:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  125 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable /home/constantine/uav_payload_control/devel/.private/qt_ground_station/lib/qt_ground_station/qt_ground_station[0m
+[100%] Built target qt_ground_station

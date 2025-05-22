@@ -1,0 +1,8 @@
+prefix=/home/constantine/uav_payload_control/install
+
+Name: optitrack_broadcast
+Description: Description of optitrack_broadcast
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

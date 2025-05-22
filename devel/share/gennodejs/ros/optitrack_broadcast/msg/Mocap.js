@@ -1,0 +1,1 @@
+/home/constantine/uav_payload_control/devel/.private/optitrack_broadcast/share/gennodejs/ros/optitrack_broadcast/msg/Mocap.js

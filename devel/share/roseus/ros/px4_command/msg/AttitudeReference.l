@@ -1,0 +1,1 @@
+/home/constantine/uav_payload_control/devel/.private/px4_command/share/roseus/ros/px4_command/msg/AttitudeReference.l

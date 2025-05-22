@@ -1,0 +1,1 @@
+/home/constantine/uav_payload_control/devel/.private/qt_ground_station/share/gennodejs/ros/qt_ground_station/msg/_index.js

@@ -1,0 +1,8 @@
+prefix=/home/constantine/uav_payload_control/devel/.private/qt_ground_station
+
+Name: qt_ground_station
+Description: Description of qt_ground_station
+Version: 0.1.0
+Cflags: -I/home/constantine/uav_payload_control/devel/.private/qt_ground_station/include -I/home/constantine/uav_payload_control/src/qt_ground_station/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

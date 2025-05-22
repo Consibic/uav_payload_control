@@ -1,0 +1,1 @@
+/home/constantine/uav_payload_control/devel/.private/optitrack_broadcast/share/optitrack_broadcast/cmake/optitrack_broadcast-msg-paths.cmake

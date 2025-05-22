@@ -1,0 +1,2 @@
+set(px4_command_MESSAGE_FILES "msg/AuxiliaryState.msg;msg/AuxiliaryState_singleUAV.msg;msg/ControlCommand.msg;msg/TrajectoryPoint.msg;msg/Trajectory.msg;msg/AttitudeReference.msg;msg/DroneState.msg;msg/Topic_for_log.msg;msg/ControlOutput.msg;msg/Mocap.msg;msg/AddonForce.msg;msg/FleetStatus.msg;msg/PayloadPoseCommand.msg;msg/HomePosition.msg")
+set(px4_command_SERVICE_FILES "srv/ControlParameter.srv;srv/Emergency.srv;srv/GeneralInfo.srv;srv/SinglePayloadAction.srv;srv/MultiPayloadAction.srv;srv/SetHome.srv")
