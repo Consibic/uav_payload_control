@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/constantine/uav_payload_control/build/optitrack_broadcast': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/constantine/uav_payload_control/build/optitrack_broadcast -- -j16 -l16
+[0.040s] Invoked command in '/home/constantine/uav_payload_control/build/optitrack_broadcast' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/constantine/uav_payload_control/build/optitrack_broadcast -- -j16 -l16
+[0.046s] Invoking command in '/home/constantine/uav_payload_control/build/optitrack_broadcast': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/constantine/uav_payload_control/build/optitrack_broadcast
+[0.052s] -- Install configuration: ""
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/ament_index/resource_index/package_run_dependencies/optitrack_broadcast
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/ament_index/resource_index/parent_prefix_path/optitrack_broadcast
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/environment/ament_prefix_path.sh
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/environment/ament_prefix_path.dsv
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/environment/path.sh
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/environment/path.dsv
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/local_setup.bash
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/local_setup.sh
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/local_setup.zsh
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/local_setup.dsv
+[0.052s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/package.dsv
+[0.053s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/ament_index/resource_index/packages/optitrack_broadcast
+[0.053s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/cmake/optitrack_broadcastConfig.cmake
+[0.053s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/cmake/optitrack_broadcastConfig-version.cmake
+[0.053s] -- Up-to-date: /home/constantine/uav_payload_control/install/optitrack_broadcast/share/optitrack_broadcast/package.xml
+[0.053s] Invoked command in '/home/constantine/uav_payload_control/build/optitrack_broadcast' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/constantine/uav_payload_control/build/optitrack_broadcast

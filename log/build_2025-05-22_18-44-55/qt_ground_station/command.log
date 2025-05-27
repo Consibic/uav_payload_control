@@ -1,0 +1,4 @@
+Invoking command in '/home/constantine/uav_payload_control/build/qt_ground_station': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/constantine/uav_payload_control/build/qt_ground_station -- -j16 -l16
+Invoked command in '/home/constantine/uav_payload_control/build/qt_ground_station' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/constantine/uav_payload_control/build/qt_ground_station -- -j16 -l16
+Invoking command in '/home/constantine/uav_payload_control/build/qt_ground_station': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/constantine/uav_payload_control/build/qt_ground_station
+Invoked command in '/home/constantine/uav_payload_control/build/qt_ground_station' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/constantine/uav_payload_control/build/qt_ground_station
